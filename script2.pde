@@ -25,6 +25,5 @@ for (int i = 0; i < 4; i++)
   y = y2;
   n = n + 20
   x2 = x2 + n;
-  line(x,y,x2,y2);
 }
 
