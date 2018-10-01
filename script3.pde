@@ -5,7 +5,7 @@ noFill();
 smooth(); 
 
 float x = 0.1, y = 0, angle = 0, r = 0.1;
-float position_x = 250, position_y = 250, position_x2 = position_x , position_y2 = position_y ;
+float positionX = 250, positionY = 250, positionX2 = positionX , positionY2 = positionY ;
 
 
 for (int i = 0; i< 2160; i++)
@@ -15,10 +15,10 @@ for (int i = 0; i< 2160; i++)
     r += 0.1;
     x = r * cos(angle);
     y = r * sin(angle);
-    position_x = 250 + x;
-    position_y = 250 + y;
-    line(position_x, position_y, position_x2, position_y2);
-    position_x2 = position_x;
-    position_y2 = position_y;
+    positionX = 250 + x;
+    positionY = 250 + y;
+    line(positionX, positionY, positionX2, positionY2);
+    positionX2 = positionX;
+    positionY2 = positionY;
     
 }
